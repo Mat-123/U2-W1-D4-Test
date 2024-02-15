@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Indie Flower", sans-serif;
+  margin: 2rem;
+  background-color: #666666;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+div {
+  width: 250px;
+  height: 200px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div::after {
+  background-image: linear-gradient(to bottom);
+}
+
+.yellowPostIt {
+  background-color: #fbfbc9;
+}
+
+.greenPostIt {
+  background-color: #cbfbcb;
+}
+
+.lilacPostIt {
+  background-color: #c9c9f6;
+}
